@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "identifier": "Email или никнейм",
+    "identifier_required": "Введите email или никнейм",
+    "password": "Пароль",
+    "password_required": "Введите пароль",
+    "remember": "Запомнить меня",
+    "login": "Войти",
+    "login_telegram": "Войти через Telegram"
+  }
+}
