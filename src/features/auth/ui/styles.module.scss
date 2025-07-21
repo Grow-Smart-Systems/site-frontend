@@ -1,0 +1,41 @@
+$primary-color: #97ad88;
+$background-color: #fffdf5;
+
+.auth_form_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 2rem;
+}
+
+.auth_logo {
+    width: 40%;
+}
+
+.auth_form {
+  width: 100%;
+  max-width: 400px;
+justify-content: left;
+  .ant_btn {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    outline: none;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+
+  .telegram_button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    outline: none;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}

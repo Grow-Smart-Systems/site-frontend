@@ -1,0 +1,22 @@
+@import '@shared/styles/colors.scss';
+
+.layout {
+  min-height: 100vh;
+  background-color: $background-color;
+  padding: 24px;
+}
+
+.header {
+  background: $primary-color;
+  padding: 0 24px;
+}
+
+.logo {
+  color: white;
+  line-height: 64px;
+  margin: 0;
+}
+
+.content {
+  margin-top: 24px;
+}
